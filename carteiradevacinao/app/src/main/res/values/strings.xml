@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Organizador Hospitalar</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="como_me_cadastrar">Como me cadastrar?</string>
+    <string name="como_cadastrar">Para se cadastrar e usar o APP,
+        vá até o Posto de Saude mais próximo e informe que deseja
+        se cadastrar no Organizador Hospitalar.\n\n
+
+        Para o cadastro será necessário seu RG, Comprovante de Residência,
+        Carteira de Vacinação e Cartão SUS. Com o cadastro finalizado você deverá
+        esperar até 7 dias para a aprovação do mesmo.
+    </string>
+</resources>

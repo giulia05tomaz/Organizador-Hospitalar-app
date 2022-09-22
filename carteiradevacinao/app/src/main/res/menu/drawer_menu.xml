@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/marcarConsultaFragment"
+            android:title="Marcar consulta" />
+
+        <item
+            android:id="@+id/consultasMarcadasFragment"
+            android:title="Consultas Marcadas" />
+
+        <item
+            android:id="@+id/perfilFragment"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/contatoFragment"
+            android:title="Contato" />
+    </group>
+</menu>

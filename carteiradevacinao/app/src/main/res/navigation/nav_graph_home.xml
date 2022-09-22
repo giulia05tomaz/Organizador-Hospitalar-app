@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.android.carteiradevacinao.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_vacinasDisponiveisFragment"
+            app:destination="@id/vacinasDisponiveisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vacinasDisponiveisFragment"
+        android:name="com.example.android.carteiradevacinao.ui.vacinasdisponiveis.VacinasDisponiveisFragment"
+        android:label="Vacinas disponíveis"
+        tools:layout="@layout/fragment_vacinas_disponiveis" />
+    <fragment
+        android:id="@+id/marcarConsultaFragment"
+        android:name="com.example.android.carteiradevacinao.ui.marcarconsulta.MarcarConsultaFragment"
+        android:label="Marcar consulta"
+        tools:layout="@layout/fragment_marcar_consulta" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.android.carteiradevacinao.ui.PerfilFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/contatoFragment"
+        android:name="com.example.android.carteiradevacinao.ui.contato.ContatoFragment"
+        android:label="Contato"
+        tools:layout="@layout/fragment_contato" />
+    <fragment
+        android:id="@+id/consultasMarcadasFragment"
+        android:name="com.example.android.carteiradevacinao.ui.consultasmarcadas.ConsultasMarcadasFragment"
+        android:label="Consultas Marcadas"
+        tools:layout="@layout/fragment_consultas_marcadas" />
+</navigation>
